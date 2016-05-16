@@ -1,0 +1,32 @@
+html,body{
+	width: 100%;
+	height: 100%;	
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:1.8em;
+}
+.page-header{
+	text-align: center;	
+}
+.panel-container{
+	background-color: #5a5c51;
+	padding-top: 4%;
+	padding-bottom: 5%;
+	width: 100%;
+}
+.badge{
+	float:right;
+}
+
+
+/*Mobile*/
+@media only screen and (min-width: 750px) {
+
+	.panel-container .panel{		
+		width: 60%;
+		margin-left: 20%;
+	}
+
+}
